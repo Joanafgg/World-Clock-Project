@@ -1,0 +1,14 @@
+/** @format */
+
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/910/original/background.jpg?1704138256");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
