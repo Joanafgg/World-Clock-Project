@@ -16,22 +16,32 @@ h1 {
   font-size: 45px;
 }
 
-a {
-  color: #44b895;
-  font-weight: 500;
-}
-footer {
-  text-align: center;
+h2 {
+  font-family: "Poppins", sans-serif;
 }
 
+a {
+  font-weight: 500;
+}
+
+a,
+h2 {
+  color: #44b895;
+}
+
+footer {
+  text-align: right;
+  background: #ffffff;
+  border-radius: 2px;
+}
 
 .container {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/936/original/Screenshot_%281440%29.jpg?1704149950");
-  max-width: 600px;
+  max-width: 650px;
   margin: 45px auto;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 40px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
