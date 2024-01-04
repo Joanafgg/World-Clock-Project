@@ -16,6 +16,7 @@ h1 {
   font-size: 60px;
   height: 0;
   margin-top: 0;
+  text-decoration: overline dotted;
 }
 
 select {
@@ -48,6 +49,10 @@ h2 {
 
 a:hover {
   text-decoration: none;
+}
+
+h2:hover {
+  color: black;
 }
 
 footer {
@@ -99,4 +104,9 @@ footer {
 
 .time small {
   font-weight: lighter;
+  font-size: 18px;
+}
+
+.time:hover {
+  color: #44b895;
 }
