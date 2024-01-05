@@ -16,12 +16,11 @@ h1 {
   font-size: 60px;
   height: 0;
   margin-top: 0;
-  text-decoration: overline dotted;
 }
 
 select {
   border-radius: 10px;
-  width: 30%;
+  width: 25%;
   padding: 5px;
   font-size: 13px;
   font-family: "Poppins", sans-serif;
@@ -108,5 +107,21 @@ footer {
 }
 
 .time:hover {
+  color: #44b895;
+}
+
+.back {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 25px;
+  background: #eff3f5;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(65, 50, 100, 0.08);
+}
+
+.back:hover {
   color: #44b895;
 }
