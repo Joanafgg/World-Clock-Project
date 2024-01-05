@@ -32,6 +32,10 @@ select {
   background: #44b895;
 }
 
+option {
+  color: black;
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
