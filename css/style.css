@@ -13,9 +13,9 @@ body {
 h1 {
   text-align: center;
   font-family: "Dancing Script", cursive;
-  font-size: 60px;
-  height: 0;
+  font-size: 65px;
   margin-top: 0;
+  height: 0;
 }
 
 select {
@@ -25,15 +25,14 @@ select {
   font-size: 13px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  color: #ffffff;
   margin: 10px auto;
-  border: 2px solid #44b895;
-  color: #eff3f5;
   margin-top: 80px;
-  background: #44b895;
+  background: #046d71;
 }
 
 option {
-  color: black;
+  color: #f38e79;
 }
 
 h2 {
@@ -47,11 +46,13 @@ a {
 
 a,
 h2 {
-  color: #44b895;
+  color: #046d71;
 }
 
-a:hover {
+a:hover,
+.back:hover {
   text-decoration: none;
+  color: #f38e79;
 }
 
 h2:hover {
@@ -70,8 +71,8 @@ footer {
 .container {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/936/original/Screenshot_%281440%29.jpg?1704149950");
-  background-size: 1280px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/109/396/original/81317d47691652c36dea4489c5e046ad.gif?1704487519");
+  background-size: 800px;
   background-position: center;
   max-width: 650px;
   margin: 40px auto;
@@ -81,9 +82,10 @@ footer {
 }
 
 .date {
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 400;
   margin-top: -10px;
+  color: #ffffff;
 }
 
 .city-one:hover,
@@ -111,21 +113,17 @@ footer {
 }
 
 .time:hover {
-  color: #44b895;
+  color: #046d71;
 }
 
 .back {
   font-size: 40px;
   font-family: "Dancing Script", cursive;
   text-decoration: none;
-  color: black;
+  color: #046d71;
   position: relative;
   top: 25px;
-  background: #eff3f5;
+  background: #ffffff;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(65, 50, 100, 0.08);
-}
-
-.back:hover {
-  color: #44b895;
 }
